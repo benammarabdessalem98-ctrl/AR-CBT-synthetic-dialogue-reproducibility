@@ -1,0 +1,146 @@
+{
+  "study_id": "ARCBT_NEW_PILOT_01",
+  "n_transcripts": 20,
+  "mapping": [
+    {
+      "blind_id": "B001",
+      "base_case_id": "P04",
+      "condition": "reference",
+      "transcript_id": "P04__reference",
+      "content_sha256": "09e9ac98e4709625e1a14a63c4d525b25bdf8ed675c82f1d060637ebfb2466e9"
+    },
+    {
+      "blind_id": "B002",
+      "base_case_id": "P03",
+      "condition": "reference",
+      "transcript_id": "P03__reference",
+      "content_sha256": "10df34a63175c5ca32caa83b5d8df5ecbc3126cb03428328d5e822c6e4c58969"
+    },
+    {
+      "blind_id": "B003",
+      "base_case_id": "P01",
+      "condition": "no_homework",
+      "transcript_id": "P01__no_homework",
+      "content_sha256": "f6a87851b7228f943b962e6831f27ce159c4cfd36148e8134b43b320b0db3366"
+    },
+    {
+      "blind_id": "B004",
+      "base_case_id": "P03",
+      "condition": "supportive_non_cbt",
+      "transcript_id": "P03__supportive_non_cbt",
+      "content_sha256": "04e36693b6521104ec6156db0d8b1c0f922929bc86a517d3994a0e8684961092"
+    },
+    {
+      "blind_id": "B005",
+      "base_case_id": "P03",
+      "condition": "no_homework",
+      "transcript_id": "P03__no_homework",
+      "content_sha256": "2103dba3880a61ed30cb90c1fff54eae2244692a04bc17f15705fd0a244620f9"
+    },
+    {
+      "blind_id": "B006",
+      "base_case_id": "P05",
+      "condition": "supportive_non_cbt",
+      "transcript_id": "P05__supportive_non_cbt",
+      "content_sha256": "0c16da3649ce87022f5fb4fcfcac7f82cd5a5a9bfb4062323a1620cac8f40376"
+    },
+    {
+      "blind_id": "B007",
+      "base_case_id": "P05",
+      "condition": "reference",
+      "transcript_id": "P05__reference",
+      "content_sha256": "66510d726579a8eceb3f1c42e86729f0a8a16f11f917991fffee7fd8621c996e"
+    },
+    {
+      "blind_id": "B008",
+      "base_case_id": "P05",
+      "condition": "no_homework",
+      "transcript_id": "P05__no_homework",
+      "content_sha256": "4918aa190575c93ad82ab9aab3656e7fbefaece0e40db07109e9112ea92788e8"
+    },
+    {
+      "blind_id": "B009",
+      "base_case_id": "P04",
+      "condition": "supportive_non_cbt",
+      "transcript_id": "P04__supportive_non_cbt",
+      "content_sha256": "0d0171bdb08cf7ccf8f125a5d925806137905ca20ce23e905bd1579cbac251a7"
+    },
+    {
+      "blind_id": "B010",
+      "base_case_id": "P04",
+      "condition": "no_homework",
+      "transcript_id": "P04__no_homework",
+      "content_sha256": "4d0d82d5a3efc6ecb8164f19a98eae85a802573e54e3f194ebaddac50617790a"
+    },
+    {
+      "blind_id": "B011",
+      "base_case_id": "P05",
+      "condition": "generic_exploration",
+      "transcript_id": "P05__generic_exploration",
+      "content_sha256": "7b159946fcbe54a7b0e5781fbeb265a2c00e7500c079fc690407715cb3d40783"
+    },
+    {
+      "blind_id": "B012",
+      "base_case_id": "P02",
+      "condition": "supportive_non_cbt",
+      "transcript_id": "P02__supportive_non_cbt",
+      "content_sha256": "b78026d93c7d92d71bbabba25a008b8cc7198dd7335104a52e08f084a20da7ac"
+    },
+    {
+      "blind_id": "B013",
+      "base_case_id": "P02",
+      "condition": "generic_exploration",
+      "transcript_id": "P02__generic_exploration",
+      "content_sha256": "2dfd314161e4b7c25d7ea4bef784e7f3e7caf013a5fb609f75be937da5c7263d"
+    },
+    {
+      "blind_id": "B014",
+      "base_case_id": "P04",
+      "condition": "generic_exploration",
+      "transcript_id": "P04__generic_exploration",
+      "content_sha256": "5e9d5a420ee3a056cd6fb0020513f173484a724c363d2f157d83b22cab78e1e4"
+    },
+    {
+      "blind_id": "B015",
+      "base_case_id": "P03",
+      "condition": "generic_exploration",
+      "transcript_id": "P03__generic_exploration",
+      "content_sha256": "adbfc406e33eab73655b57c021db4cd66d87295069b2fb75b3ad05a5c8ba9dc7"
+    },
+    {
+      "blind_id": "B016",
+      "base_case_id": "P01",
+      "condition": "reference",
+      "transcript_id": "P01__reference",
+      "content_sha256": "4f338f3d8002024e77fdfd432bf7695bb0c1013909cdb0e77f3e174a63ffd148"
+    },
+    {
+      "blind_id": "B017",
+      "base_case_id": "P02",
+      "condition": "no_homework",
+      "transcript_id": "P02__no_homework",
+      "content_sha256": "5ce3efa2b11d1c31e91adc59bb6f2c795c08e0a71e539b8f24d7d20f5c34b335"
+    },
+    {
+      "blind_id": "B018",
+      "base_case_id": "P02",
+      "condition": "reference",
+      "transcript_id": "P02__reference",
+      "content_sha256": "9e246b1d64bb0dc67601049ecaafc60ff1432a98ca1a3dfde137832c5b03627b"
+    },
+    {
+      "blind_id": "B019",
+      "base_case_id": "P01",
+      "condition": "supportive_non_cbt",
+      "transcript_id": "P01__supportive_non_cbt",
+      "content_sha256": "b7f0c9f1be860481e0a24f2a22971e46bde7d46c4b02576142c668d1b43d1673"
+    },
+    {
+      "blind_id": "B020",
+      "base_case_id": "P01",
+      "condition": "generic_exploration",
+      "transcript_id": "P01__generic_exploration",
+      "content_sha256": "b9c953a7ab9cea49d7dd7600ca469fd0bf2a5805c08e986a41f218095c63a0b1"
+    }
+  ]
+}

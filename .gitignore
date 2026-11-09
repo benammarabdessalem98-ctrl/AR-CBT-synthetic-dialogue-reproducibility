@@ -1,0 +1,38 @@
+# Secrets and credentials
+.env
+.env.*
+*.key
+*.pem
+*token*
+*secret*
+*credential*
+*password*
+*cookie*
+
+# Journal/editorial/private administrative files
+*Cover_Letter*
+*CoverLetter*
+*Title_Page*
+*Response_to_Reviewers*
+*Reviewer*
+*Editorial_Manager*
+*Decision_Letter*
+*Editor_Letter*
+*Correspondence*
+
+# Explicitly private research files
+*PRIVATE*
+*private*
+private/
+confidential/
+
+# Screenshots and local/private exports
+screenshots/
+private_screenshots/
+*.log
+.ipynb_checkpoints/
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+~$*

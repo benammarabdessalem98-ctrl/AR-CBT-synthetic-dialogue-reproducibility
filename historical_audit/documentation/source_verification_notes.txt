@@ -1,0 +1,12 @@
+SOURCE CHECK — 5 November 2026
+Primary-source verification of the existing literature, not a new literature review.
+Flemotomos et al. (2021): publisher full text inspected; 11 CTRS codes and 0–6 scale confirmed.
+https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0258639
+Mandal et al. (2026), MAGneT: primary indexed ACL metadata/abstract checked; direct page fetch unavailable. No full-text verification claim.
+https://aclanthology.org/2026.findings-emnlp.282/
+Kamaleddin et al. (2026): primary indexed JMIR metadata/abstract checked; direct page fetch unavailable. No full-text verification claim.
+https://mededu.jmir.org/2026/1/e92964
+Beck (2011) and Weizenbaum (1966): retained contextual references from the supplied manuscript.
+Journal requirements checked on the official current HTML page:
+https://link.springer.com/journal/41347/submission-guidelines
+Editable Word source; separate identifying title page; anonymous review material; LLM-use disclosure; author approval. These checks do not certify acceptance or resolve study provenance.

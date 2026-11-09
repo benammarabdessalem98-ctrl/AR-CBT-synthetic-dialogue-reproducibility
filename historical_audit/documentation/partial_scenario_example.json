@@ -1,0 +1,22 @@
+{
+  "status": "Partial documentary example only; not an execution record",
+  "example": {
+    "scenario_id": "S003",
+    "theme": "perfectionism",
+    "presenting_problem": "Distress linked to perfectionism and fear of mistakes.",
+    "automatic_thoughts": [
+      "If it is not perfect, it is a failure."
+    ],
+    "emotions": [
+      "anxiety",
+      "frustration"
+    ],
+    "behaviors": [
+      "overchecking",
+      "delay"
+    ],
+    "baseline_severity": "moderate",
+    "variant_type": "base",
+    "therapeutic_direction": "cognitive restructuring and homework"
+  }
+}

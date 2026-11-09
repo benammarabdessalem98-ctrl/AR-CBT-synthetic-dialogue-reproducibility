@@ -1,0 +1,8 @@
+{
+  "python_tested": "3.13.5",
+  "numpy": "2.3.5",
+  "scipy": "1.17.0",
+  "matplotlib": "3.10.8",
+  "minimum_python": "3.10",
+  "note": "Versions for the new arithmetic audit, not original LLM experiments."
+}

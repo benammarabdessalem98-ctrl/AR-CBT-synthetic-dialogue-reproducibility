@@ -1,0 +1,10 @@
+Blind transcript ID: {blind_id}
+
+FROZEN RUBRIC:
+{rubric}
+
+DIALOGUE:
+{dialogue}
+
+Return JSON using exactly this structure:
+{schema}

@@ -1,0 +1,102 @@
+[
+  {
+    "authoring_method": "New assistant-authored material prepared for a technical pilot; not a recovered historical case",
+    "base_case_id": "P01",
+    "expert_review_completed": false,
+    "intended_risk": "low",
+    "language": "ar",
+    "patient_utterances": [
+      "أنا طالب جامعي بالغ، ولدي ثلاثة تقارير هذا الأسبوع. كلما نظرت إلى المطلوب أقول لنفسي إنني لن أنجز شيئًا، ثم أؤجل البدء.",
+      "أمس فتحت ملف التقرير ثم أغلقته بعد دقائق. شعرت بالتوتر، وبدأت أتصفح هاتفي بدل الكتابة. الفكرة التي راودتني كانت أن البداية لن تفيد لأن العمل كثير.",
+      "في أسبوع سابق أنجزت جزءًا صغيرًا كل يوم وانتهيت في الموعد. أظن أنني أتجاهل هذا المثال عندما أشعر بالضغط. أستطيع تخصيص عشرين دقيقة اليوم.",
+      "أريد أن أنهي حديثنا بخطوة محددة أستطيع تنفيذها اليوم ومراجعتها غدًا، بدل أن أطالب نفسي بإنجاز كل شيء مرة واحدة."
+    ],
+    "register": "MSA",
+    "scenario_id": "P01",
+    "severity": "moderate",
+    "synthetic": true,
+    "theme": "academic_stress",
+    "title_en": "Academic workload and avoidance",
+    "variant": "base"
+  },
+  {
+    "authoring_method": "New assistant-authored material prepared for a technical pilot; not a recovered historical case",
+    "base_case_id": "P02",
+    "expert_review_completed": false,
+    "intended_risk": "low",
+    "language": "ar",
+    "patient_utterances": [
+      "أنا طالب بالغ ولدي امتحان بعد أسبوع. عندما أفكر فيه يتسارع نبضي وأقول إنني سأفشل مهما راجعت، فأبتعد عن الدراسة.",
+      "يحدث ذلك خصوصًا عندما أرى أسئلة لا أعرف إجابتها فورًا. أتوقف عن حلها وأقارن نفسي بزملائي. لم تظهر نتيجة الامتحان بعد، لكنني أتعامل مع الفشل كأنه مؤكد.",
+      "نجحت في امتحانات سابقة رغم أنني كنت قلقًا، وأستطيع حل بعض الأسئلة إذا بدأت بالأسهل. أرغب في تجربة فترة مراجعة قصيرة دون مقارنة نفسي بأحد.",
+      "ما الخطوة العملية الصغيرة التي يمكنني تجربتها قبل حديثنا القادم، وكيف أعرف إن كانت ساعدتني؟"
+    ],
+    "register": "MSA",
+    "scenario_id": "P02",
+    "severity": "moderate",
+    "synthetic": true,
+    "theme": "exam_anxiety",
+    "title_en": "Anticipatory exam anxiety",
+    "variant": "base"
+  },
+  {
+    "authoring_method": "New assistant-authored material prepared for a technical pilot; not a recovered historical case",
+    "base_case_id": "P03",
+    "expert_review_completed": false,
+    "intended_risk": "low",
+    "language": "ar",
+    "patient_utterances": [
+      "أنا شخص بالغ وأكتب تقريرًا للعمل. أراجعه مرات كثيرة لأنني أعتقد أن أي خطأ صغير يعني أنني غير كفء، وهذا يؤخر تسليمه.",
+      "أمس عدت إلى الفقرة نفسها ست مرات. شعرت بالقلق والخجل من احتمال وجود خطأ، مع أن زميلي لم يطلب تقريرًا كاملًا بلا أي تعديل.",
+      "سبق أن تلقيت ملاحظة على تقرير ثم صححته، ولم تتغير معاملة الفريق لي. أرى فرقًا بين وجود خطأ وبين أن تكون كل قدراتي سيئة.",
+      "أود تجربة حد واضح لعدد المراجعات، لكنني أحتاج إلى خطوة صغيرة وطريقة لتسجيل ما يحدث بدل الاكتفاء بطمأنة نفسي."
+    ],
+    "register": "MSA",
+    "scenario_id": "P03",
+    "severity": "moderate",
+    "synthetic": true,
+    "theme": "perfectionism",
+    "title_en": "Repeated checking of a draft",
+    "variant": "base"
+  },
+  {
+    "authoring_method": "New assistant-authored material prepared for a technical pilot; not a recovered historical case",
+    "base_case_id": "P04",
+    "expert_review_completed": false,
+    "intended_risk": "low",
+    "language": "ar",
+    "patient_utterances": [
+      "أنا شخص بالغ وأختلف مع أحد أفراد أسرتي حول اختياري المهني. عندما ينتقدني أشعر بالحزن وأفكر أن رأيي لا قيمة له، ثم أتجنب الحديث.",
+      "في آخر نقاش ارتفع الصوت وانسحبت. لا أعرف بالضبط سبب اعتراضه، ولا أريد افتراض أنه يقصد الخير أو الأذى. لا أشعر بخطر مباشر، وأريد أن يكون اختياري محترمًا.",
+      "أستطيع توضيح أسباب اختياري بهدوء وطلب التوقف إذا تحول الكلام إلى إهانة. يهمني الحفاظ على العلاقة، لكن ليس على حساب قراري أو راحتي.",
+      "أريد إعداد جملة أو خطوتين للحوار وتجربتهما عندما أكون مستعدًا، مع طريقة لمراجعة التجربة بعد ذلك."
+    ],
+    "register": "MSA",
+    "scenario_id": "P04",
+    "severity": "moderate",
+    "synthetic": true,
+    "theme": "interpersonal_conflict",
+    "title_en": "Career disagreement and autonomy",
+    "variant": "base"
+  },
+  {
+    "authoring_method": "New assistant-authored material prepared for a technical pilot; not a recovered historical case",
+    "base_case_id": "P05",
+    "expert_review_completed": false,
+    "intended_risk": "low",
+    "language": "ar",
+    "patient_utterances": [
+      "أنا شخص بالغ وأجد صعوبة في الاسترخاء قبل النوم. أفكر في أخطاء اليوم وأقول إنني لن أستطيع العمل غدًا، ثم أتابع هاتفي مدة طويلة.",
+      "القلق يزداد عندما أحاول إجبار نفسي على النوم فورًا. أراقب الساعة وأكرر في ذهني توقعات سيئة عن الغد. أريد فهم هذه الحلقة، لا الحصول على تشخيص أو دواء.",
+      "بعض الأيام التي نمت فيها أقل كانت متعبة، لكنني استطعت إنجاز أمور أساسية. يمكنني تجربة كتابة مخاوفي في وقت أبكر وتقليل متابعة الهاتف قبل النوم.",
+      "لنختم بخطوة بسيطة أختارها بنفسي لهذا المساء، وما الذي أسجله لأراجع أثرها دون تحويل النوم إلى اختبار نجاح أو فشل."
+    ],
+    "register": "MSA",
+    "scenario_id": "P05",
+    "severity": "moderate",
+    "synthetic": true,
+    "theme": "sleep_difficulties",
+    "title_en": "Bedtime worry and phone checking",
+    "variant": "base"
+  }
+]

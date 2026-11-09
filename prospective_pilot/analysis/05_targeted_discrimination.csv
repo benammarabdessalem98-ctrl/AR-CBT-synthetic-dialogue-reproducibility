@@ -1,0 +1,9 @@
+judge,condition,target_dimension,available_pairs,mean_difference,median_difference,lower_than_reference,equal_to_reference,higher_than_reference
+mistral,generic_exploration,guided_discovery,3,-0.6666666666666666,0.0,1,1,1
+mistral,supportive_non_cbt,guided_discovery,1,-1.0,-1.0,1,0,0
+mistral,supportive_non_cbt,strategy_change,1,-1.0,-1.0,1,0,0
+mistral,no_homework,homework_planning,2,0.0,0.0,0,2,0
+phi,generic_exploration,guided_discovery,5,-1.0,0.0,2,3,0
+phi,supportive_non_cbt,guided_discovery,5,-1.8,-2.0,4,0,1
+phi,supportive_non_cbt,strategy_change,5,-1.4,-2.0,4,0,1
+phi,no_homework,homework_planning,5,-0.2,0.0,2,1,2

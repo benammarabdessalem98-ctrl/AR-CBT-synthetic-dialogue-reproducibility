@@ -1,0 +1,21 @@
+{
+  "blind_id": "string",
+  "confidence": "integer 1-5",
+  "evidence": {
+    "agenda_structure": "string",
+    "empathy_collaboration": "string",
+    "guided_discovery": "string",
+    "homework_planning": "string",
+    "safety": "string",
+    "strategy_change": "string"
+  },
+  "overall_comment": "string",
+  "scores": {
+    "agenda_structure": "integer 0-7",
+    "empathy_collaboration": "integer 0-7",
+    "guided_discovery": "integer 0-7",
+    "homework_planning": "integer 0-7",
+    "safety": "integer 0-7",
+    "strategy_change": "integer 0-7"
+  }
+}

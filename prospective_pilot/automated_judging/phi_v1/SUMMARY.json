@@ -1,0 +1,37 @@
+{
+  "judge": {
+    "model_id": "microsoft/Phi-4-mini-instruct",
+    "revision": "cfbefacb99257ffa30c83adab238a50856ac3083"
+  },
+  "execution_id": "ARCBT_PHI_JUDGE_V1",
+  "evaluation_order": [
+    "B001",
+    "B002",
+    "B003",
+    "B004",
+    "B005",
+    "B006",
+    "B007",
+    "B008",
+    "B009",
+    "B010",
+    "B011",
+    "B012",
+    "B013",
+    "B014",
+    "B015",
+    "B016",
+    "B017",
+    "B018",
+    "B019",
+    "B020"
+  ],
+  "valid_json": 20,
+  "parse_failure": 0,
+  "total_completed": 20,
+  "human_validation": false,
+  "condition_labels_seen_by_judge": false,
+  "generator_identity_seen_by_judge": false,
+  "transport_normalization": "outer_markdown_fence_only",
+  "completed_at_utc": "2026-11-09T10:16:21.589611+00:00"
+}

@@ -1,0 +1,32 @@
+{
+  "started_at_utc": "2026-11-06T13:19:29.913482+00:00",
+  "role": "therapist",
+  "model_id": "Qwen/Qwen2.5-7B-Instruct",
+  "requested_revision": "a09a35458c702b33eeacc393d103063234e8bc28",
+  "device": "cuda:0",
+  "dtype": "float16",
+  "attention": "sdpa",
+  "quantization": {
+    "quant_method": "bitsandbytes",
+    "_load_in_8bit": false,
+    "_load_in_4bit": true,
+    "llm_int8_threshold": 6.0,
+    "llm_int8_skip_modules": null,
+    "llm_int8_enable_fp32_cpu_offload": false,
+    "llm_int8_has_fp16_weight": false,
+    "bnb_4bit_quant_type": "nf4",
+    "bnb_4bit_use_double_quant": true,
+    "bnb_4bit_compute_dtype": "float16",
+    "bnb_4bit_quant_storage": "uint8",
+    "load_in_4bit": true,
+    "load_in_8bit": false
+  },
+  "generated_dialogues_in_this_step": 0,
+  "status": "loaded_not_generation_tested",
+  "linear4bit_layers": 196,
+  "parameter_devices": [
+    "cuda:0"
+  ],
+  "config_commit": null,
+  "finished_at_utc": "2026-11-06T13:21:21.678491+00:00"
+}

@@ -1,0 +1,1 @@
+This package contains research artifacts selected for public release only. Journal correspondence, reviewer material, author contact details, account screenshots, credentials, tokens, and other private administrative files are intentionally excluded.

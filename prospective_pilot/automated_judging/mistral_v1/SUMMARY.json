@@ -1,0 +1,37 @@
+{
+  "judge": {
+    "model_id": "mistralai/Mistral-7B-Instruct-v0.3",
+    "revision": "c170c708c41dac9275d15a8fff4eca08d52bab71"
+  },
+  "execution_id": "ARCBT_MISTRAL_JUDGE_V1",
+  "evaluation_order": [
+    "B001",
+    "B002",
+    "B003",
+    "B004",
+    "B005",
+    "B006",
+    "B007",
+    "B008",
+    "B009",
+    "B010",
+    "B011",
+    "B012",
+    "B013",
+    "B014",
+    "B015",
+    "B016",
+    "B017",
+    "B018",
+    "B019",
+    "B020"
+  ],
+  "valid_json": 14,
+  "parse_failure": 6,
+  "already_existing": 0,
+  "total_completed": 20,
+  "human_validation": false,
+  "condition_labels_seen_by_judge": false,
+  "generator_identity_seen_by_judge": false,
+  "completed_at_utc": "2026-11-06T14:00:06.396645+00:00"
+}

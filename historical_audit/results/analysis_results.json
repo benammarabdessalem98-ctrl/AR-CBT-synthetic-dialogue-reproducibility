@@ -1,0 +1,94 @@
+{
+  "n_records": 80,
+  "n_numeric_scores": 240,
+  "series": [
+    {
+      "column": "Rater1",
+      "n": 80,
+      "mean": 4.04875,
+      "sd": 0.8625827790032162,
+      "median": 4.1,
+      "iqr": 1.5999999999999996,
+      "min": 2.6,
+      "max": 5.5
+    },
+    {
+      "column": "Rater2",
+      "n": 80,
+      "mean": 3.9775000000000005,
+      "sd": 0.9587670088270611,
+      "median": 3.8499999999999996,
+      "iqr": 1.2999999999999998,
+      "min": 2.2,
+      "max": 6.0
+    },
+    {
+      "column": "ModelScore",
+      "n": 80,
+      "mean": 4.021125,
+      "sd": 0.8780487483223125,
+      "median": 3.9450000000000003,
+      "iqr": 1.275,
+      "min": 2.41,
+      "max": 6.0
+    }
+  ],
+  "pairwise": [
+    {
+      "series_1": "Rater1",
+      "series_2": "Rater2",
+      "pearson_r": 0.8993406022149887,
+      "spearman_rho": 0.9020352536175579
+    },
+    {
+      "series_1": "Rater1",
+      "series_2": "ModelScore",
+      "pearson_r": 0.8857973683119021,
+      "spearman_rho": 0.893935244934854
+    },
+    {
+      "series_1": "Rater2",
+      "series_2": "ModelScore",
+      "pearson_r": 0.9070956992001,
+      "spearman_rho": 0.9065938959106106
+    }
+  ],
+  "reference_comparison": {
+    "reference": "Arithmetic mean (Rater1 + Rater2)/2; not a human reference, consensus, or ground truth.",
+    "pearson_r": 0.9204034464648122,
+    "spearman_rho": 0.9261593911067427,
+    "mean_difference": 0.007999999999999957,
+    "mae": 0.3035,
+    "rmse": 0.35022849684170476,
+    "min_difference": -0.5499999999999998,
+    "max_difference": 0.5999999999999996,
+    "row_bootstrap_ci": [
+      0.8839633809024069,
+      0.9471797733564137
+    ],
+    "bootstrap_resamples": 10000,
+    "bootstrap_valid": 10000,
+    "bootstrap_seed": 42,
+    "bootstrap_scope": "Exploratory row-wise percentile interval, not cluster-adjusted or evidence of clinical/evaluator validity."
+  },
+  "categorical_audit": {
+    "nearest_even": {
+      "kappa": 0.479505530253741,
+      "observed_agreement": 0.625,
+      "chance_agreement": 0.27953125000000006
+    },
+    "cutoff_4": {
+      "kappa": 0.6758104738154613,
+      "observed_agreement": 0.8375,
+      "chance_agreement": 0.49875
+    },
+    "scope": "Post-hoc numerical audit only. Nearest-even rounding is not a recovered historical protocol. The cutoff 4 is not a validated adequacy threshold. No human raters are represented."
+  },
+  "scope": "Author reports dialogue-level LLM scoring and no human raters. Source records do not identify the systems behind columns. Arithmetic reproducibility is not execution provenance.",
+  "input_sha256": "91b47b9bffe6bf1617a15b207ce8a5edd77d622e5303b61692c3699ddf5f3ec4",
+  "environment": {
+    "python": "3.13.5",
+    "numpy": "2.3.5",
+    "scipy": "1.17.0"
+  }
+}

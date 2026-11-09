@@ -1,0 +1,47 @@
+{
+  "study_id": "ARCBT_NEW_PILOT_01",
+  "platform": "Kaggle",
+  "prepared_at_utc": "2026-11-06T13:19:08.139816+00:00",
+  "scope": "new_technical_pilot_not_historical_reproduction",
+  "status_at_creation": "setup_only_no_model_executed",
+  "human_validation": false,
+  "environment": {
+    "python": "3.13.16",
+    "torch_cuda": "13.0",
+    "packages": {
+      "torch": "2.11.0+cu130",
+      "transformers": "5.20.2",
+      "accelerate": "1.15.0",
+      "bitsandbytes": "0.48.1",
+      "huggingface_hub": "1.33.0",
+      "safetensors": "0.8.0",
+      "tokenizers": "0.23.3"
+    },
+    "gpus": [
+      {
+        "index": 0,
+        "name": "Tesla T4",
+        "total_memory_bytes": 15636037632
+      },
+      {
+        "index": 1,
+        "name": "Tesla T4",
+        "total_memory_bytes": 15636037632
+      }
+    ]
+  },
+  "models": {
+    "therapist": {
+      "model_id": "Qwen/Qwen2.5-7B-Instruct",
+      "revision": "a09a35458c702b33eeacc393d103063234e8bc28"
+    },
+    "judge_mistral": {
+      "model_id": "mistralai/Mistral-7B-Instruct-v0.3",
+      "revision": "c170c708c41dac9275d15a8fff4eca08d52bab71"
+    },
+    "judge_phi": {
+      "model_id": "microsoft/Phi-4-mini-instruct",
+      "revision": "cfbefacb99257ffa30c83adab238a50856ac3083"
+    }
+  }
+}

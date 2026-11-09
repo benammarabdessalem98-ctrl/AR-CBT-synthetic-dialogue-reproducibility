@@ -1,0 +1,23 @@
+{
+  "failed_parse_rule": "Retain the raw output and mark parsing failure; do not invent or silently repair scores.",
+  "human_validation": false,
+  "integer_scores_only": true,
+  "judge_blinding": {
+    "condition_hidden": true,
+    "generator_identity_hidden": true,
+    "other_judge_scores_hidden": true,
+    "private_blinding_key_not_in_prompt": true
+  },
+  "judging_protocol_id": "ARCBT_JUDGING_V1",
+  "output_schema_sha256": "3591c414a03c5b5f580dff285059f7601d70b8ad3ff1c7ae2c03ababb98bc94a",
+  "overall_score": "Computed later from the six component scores; judges do not produce the primary overall score.",
+  "rerun_rule": "No selective reruns for low or unexpected scores. A technical retry must be explicitly logged.",
+  "rubric_sha256": "b6f08b115c84f60d52400f060b36d8deb318823348edcee31dbc7d3da9ddc896",
+  "score_range": [
+    0,
+    7
+  ],
+  "study_id": "ARCBT_NEW_PILOT_01",
+  "system_prompt_sha256": "bd44b9e5dcb01d86397ec492ca7f4c4423abac2e3f886f86d949448b1e9bfbe3",
+  "user_template_sha256": "010c4a0921a92431d40ce75f943c15b124d131934ac8f1b142943f174922fb5a"
+}

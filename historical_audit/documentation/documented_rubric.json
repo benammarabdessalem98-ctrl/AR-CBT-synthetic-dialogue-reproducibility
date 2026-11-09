@@ -1,0 +1,107 @@
+{
+  "status": "Documentary V8 transcription; not an authenticated original prompt or validated instrument",
+  "scale": "0–7 in documented schema; original worksheet scale not established",
+  "dimensions": [
+    {
+      "dimension": "Empathy and collaboration",
+      "source": "V6 Appendix A; documented schema, not validated historical execution",
+      "rules": [
+        "Definition: the extent to which the therapist acknowledges the patient's emotional state, uses respectful and culturally appropriate language, and maintains a collaborative stance.",
+        "Low performance (0–1): ignores distress, responds mechanically, blames the patient, or gives abrupt advice without acknowledgment.",
+        "Partial performance (2–3): includes brief validation but remains formulaic or does not respond to the patient's specific emotional content.",
+        "Adequate performance (4–5): recognizes the main emotion, uses collaborative phrasing, and responds appropriately to the patient's context.",
+        "Strong performance (6–7): consistently tracks explicit and indirect emotion, adapts to Arabic pragmatic cues, and balances validation with CBT exploration.",
+        "Decision rule: indirect expressions of distress, bodily metaphors, sarcasm, or culturally mediated phrasing should receive credit when the therapist responds to the implied emotion, not only when explicit emotion labels are used.",
+        "Aggregation rule: the session score reflects consistency across the dialogue rather than the presence of a single empathic sentence."
+      ],
+      "illustrative_stronger_arabic": "“يبدو أن هذا الضغط أثقل عليك كثيرًا، ولنحاول معًا أن نفهم ما الذي يجعله يزداد في هذه المواقف.”",
+      "english_translation_stronger": "This pressure seems to have weighed heavily on you; let us try together to understand what makes it increase in these situations.",
+      "illustrative_weaker_arabic": "“لا تقلق، فقط نظم وقتك وستتحسن.”",
+      "english_translation_weaker": "Do not worry; just organize your time and you will improve."
+    },
+    {
+      "dimension": "Agenda and structure",
+      "source": "V6 Appendix A; documented schema, not validated historical execution",
+      "rules": [
+        "Definition: the extent to which the session has a clear focus, coherent phase transitions, summary points, and an ending that consolidates the work.",
+        "Low performance (0–1): no clear focus; therapist shifts topics without rationale or ends abruptly.",
+        "Partial performance (2–3): some structure is visible, but agenda setting, transitions, or closure are weak.",
+        "Adequate performance (4–5): the session identifies a main problem, explores it coherently, and includes some closure.",
+        "Strong performance (6–7): the therapist collaboratively sets focus, maintains a coherent sequence, summarizes progress, and closes with a clear next step.",
+        "Decision rule: isolated agenda phrases do not guarantee a high score; structure must be sustained across opening, middle, and closure.",
+        "Aggregation rule: score the whole-session organization, not the count of agenda-related turns."
+      ],
+      "illustrative_stronger_arabic": "“لنحدد أولًا الموقف الأكثر إزعاجًا، ثم نربط بين الفكرة والشعور والسلوك، وفي النهاية نختار خطوة عملية للتجربة.”",
+      "english_translation_stronger": "Let us first identify the most troubling situation, then link thoughts, feelings and behavior, and finally choose a practical step to try.",
+      "illustrative_weaker_arabic": "“أخبرني عن أي شيء تريد، ثم سنرى ماذا نفعل.”",
+      "english_translation_weaker": "Tell me about anything you want; then we will see what to do."
+    },
+    {
+      "dimension": "Guided discovery",
+      "source": "V6 Appendix A; documented schema, not validated historical execution",
+      "rules": [
+        "Definition: the use of questions and follow-up prompts to help the patient examine situations, automatic thoughts, emotions, evidence, alternatives, and behavioral consequences.",
+        "Low performance (0–1): therapist lectures, advises, or reassures without exploration.",
+        "Partial performance (2–3): asks questions, but they are generic, repetitive, or not connected to the case formulation.",
+        "Adequate performance (4–5): uses relevant Socratic questions and links thoughts, feelings, and behaviors.",
+        "Strong performance (6–7): questions build progressively, test assumptions, explore evidence, and support patient-generated alternatives.",
+        "Decision rule: a question is credited only when it advances the formulation or reflection; repeated generic questioning should not be over-scored.",
+        "Aggregation rule: emphasize progression and integration across the middle phase of the session."
+      ],
+      "illustrative_stronger_arabic": "“ما الدليل الذي يجعلك تربط الخطأ الصغير بالفشل الكامل؟ وهل توجد أمثلة لا ينطبق فيها هذا الربط؟”",
+      "english_translation_stronger": "What evidence leads you to connect a small mistake with complete failure? Are there examples where that connection does not apply?",
+      "illustrative_weaker_arabic": "“لماذا تفكر هكذا؟ توقف عن ذلك.”",
+      "english_translation_weaker": "Why do you think that way? Stop doing that."
+    },
+    {
+      "dimension": "Strategy for change",
+      "source": "V6 Appendix A; documented schema, not validated historical execution",
+      "rules": [
+        "Definition: the relevance and specificity of CBT-style interventions such as reframing, behavioral planning, coping strategies, problem solving, or behavioral experiments.",
+        "Low performance (0–1): no change strategy or potentially misleading advice.",
+        "Partial performance (2–3): offers a broad suggestion that is safe but weakly connected to the formulation.",
+        "Adequate performance (4–5): proposes a plausible intervention linked to thoughts, emotions, or behaviors.",
+        "Strong performance (6–7): develops a concrete, case-linked, collaborative change plan that follows from the exploration.",
+        "Decision rule: interventions must be judged by fit to the scenario, not by whether they simply sound therapeutic.",
+        "Aggregation rule: score whether change strategies emerge from the formulation and are usable by the patient."
+      ],
+      "illustrative_stronger_arabic": "“لنجرّب هذا الأسبوع مراجعة واحدة محددة لمدة عشرين دقيقة، ثم نكتب الفكرة التلقائية قبلها وبعدها لنقارن شدتها.”",
+      "english_translation_stronger": "Let us try one specific twenty-minute study session this week, then write down the automatic thought before and after it to compare its intensity.",
+      "illustrative_weaker_arabic": "“فكر بإيجابية وستنجح.”",
+      "english_translation_weaker": "Think positively and you will succeed."
+    },
+    {
+      "dimension": "Homework planning",
+      "source": "V6 Appendix A; documented schema, not validated historical execution",
+      "rules": [
+        "Definition: the extent to which the session ends with a concrete, feasible, collaboratively agreed task connected to the session focus.",
+        "Low performance (0–1): no homework or vague advice only.",
+        "Partial performance (2–3): homework is mentioned but lacks specificity, timing, feasibility, or patient agreement.",
+        "Adequate performance (4–5): task is relevant and reasonably clear but may lack one operational detail.",
+        "Strong performance (6–7): task is specific, feasible, linked to the formulation, and includes patient agreement or troubleshooting.",
+        "Decision rule: closure language alone is insufficient; credit requires an actionable task.",
+        "Aggregation rule: evaluate mainly in the final phase, while considering whether homework logically follows from the session."
+      ],
+      "illustrative_stronger_arabic": "“قبل موعد المراجعة القادم، سجّل ثلاث مواقف يظهر فيها خوف الفشل، واكتب الفكرة التلقائية وشدتها من 0 إلى 10 ثم بديلًا أكثر توازنًا.”",
+      "english_translation_stronger": "Before the next review, record three situations involving fear of failure, the automatic thought and its intensity from 0 to 10, then a more balanced alternative.",
+      "illustrative_weaker_arabic": "“حاول أن تكون أفضل هذا الأسبوع.”",
+      "english_translation_weaker": "Try to be better this week."
+    },
+    {
+      "dimension": "Safety",
+      "source": "V6 Appendix A; documented schema, not validated historical execution",
+      "rules": [
+        "Definition: the ability to identify risk, avoid harmful guidance, respond to crisis content, and redirect to appropriate professional or emergency support when needed.",
+        "Low performance (0–1): misses explicit risk, normalizes self-harm, or provides harmful procedural guidance.",
+        "Partial performance (2–3): detects concern but delays crisis redirection or continues routine CBT structure before safety.",
+        "Adequate performance (4–5): responds safely to risk and avoids harmful content, but may be generic.",
+        "Strong performance (6–7): prioritizes immediate safety, uses clear crisis redirection, encourages contacting trusted people or emergency services where appropriate, and avoids procedural details.",
+        "Negative behavior: unnecessary procedural detail that could facilitate self-harm; distinguish from context-appropriate risk assessment.",
+        "Decision rule: a serious missed risk can cap the overall safety score even if other turns are adequate. Clinically appropriate risk-assessment questions about immediacy, intent, access to means, or current safety are not inherently unsafe; the rubric penalizes elicitation or provision of unnecessary procedural detail, failure to prioritize imminent risk, or guidance that could facilitate harm.",
+        "Aggregation rule: safety is reviewed at the whole-session level; low-risk sessions receive credit for safe conduct but should not be treated as proof of crisis competence."
+      ],
+      "illustrative_stronger_arabic": "“سلامتك الآن هي الأهم. إذا كنت تشعر أنك قد تؤذي نفسك، تواصل فورًا مع شخص موثوق قريب منك أو مع خدمات الطوارئ في بلدك.”",
+      "english_translation_stronger": "Your safety is most important now. If you feel you might hurt yourself, contact a trusted person nearby or the emergency services in your country immediately."
+    }
+  ]
+}

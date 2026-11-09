@@ -1,0 +1,26 @@
+{
+  "cases_sha256": "39ed0ccbec9530626e7db08677c6ec9456beac1574cd436c69a9a82d57985efc",
+  "generation": {
+    "attention": "sdpa",
+    "do_sample": false,
+    "input_overflow": "stop_without_truncation",
+    "max_input_tokens": 4096,
+    "max_new_tokens": 320,
+    "quantization": "NF4_double_quant_float16"
+  },
+  "human_validation": false,
+  "judge_protocol": "must_be_frozen_before_study_judging",
+  "patient_design": "four_fixed_scripted_utterances_not_adaptive",
+  "preparation_sha256": "997c03135ea17af93e1abf90620e331864a4a926bee7b5f64512636138f2efdf",
+  "repetitions": 1,
+  "rule": "Keep all responses and failures; no selection of better reruns.",
+  "seed": 20261105,
+  "stage": "technical_pilot_not_confirmatory",
+  "study_id": "ARCBT_NEW_PILOT_01",
+  "system_prompt_sha256": "0fb085bd44a31e77013d3912361a5535cf3412843ea70f74335cf42d5005bf89",
+  "therapist": {
+    "model_id": "Qwen/Qwen2.5-7B-Instruct",
+    "revision": "a09a35458c702b33eeacc393d103063234e8bc28"
+  },
+  "version": "ARCBT_KAGGLE_GENERATION_v1"
+}

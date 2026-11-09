@@ -1,0 +1,70 @@
+{
+  "transcript_id": "P01__reference",
+  "base_case_id": "P01",
+  "scenario_id": "P01",
+  "theme": "academic_stress",
+  "condition": "reference",
+  "generator": {
+    "model_id": "Qwen/Qwen2.5-7B-Instruct",
+    "revision": "a09a35458c702b33eeacc393d103063234e8bc28"
+  },
+  "is_new_data": true,
+  "reference_quality_assumed": false,
+  "messages": [
+    {
+      "turn_id": 1,
+      "role": "patient",
+      "text": "أنا طالب جامعي بالغ، ولدي ثلاثة تقارير هذا الأسبوع. كلما نظرت إلى المطلوب أقول لنفسي إنني لن أنجز شيئًا، ثم أؤجل البدء.",
+      "origin": "frozen_scripted_input"
+    },
+    {
+      "turn_id": 1,
+      "role": "therapist",
+      "text": "أفهم أنك تشعر بالقلق بشأن كمية العمل. هل يمكنك أن تصف لي كيف تشعر عندما تفكر في العمل؟ هل هناك شيء معين يجعلك تشعر بأنك لن تستطيع إكمال المهمة؟",
+      "origin": "model_output",
+      "call_id": "P01_turn_01"
+    },
+    {
+      "turn_id": 2,
+      "role": "patient",
+      "text": "أمس فتحت ملف التقرير ثم أغلقته بعد دقائق. شعرت بالتوتر، وبدأت أتصفح هاتفي بدل الكتابة. الفكرة التي راودتني كانت أن البداية لن تفيد لأن العمل كثير.",
+      "origin": "frozen_scripted_input"
+    },
+    {
+      "turn_id": 2,
+      "role": "therapist",
+      "text": "أستطيع أن أفهم أن الشعور بالتوتر قد يعيق البدء. هل يمكنك أن نحاول تقسيم العمل إلى أجزاء أصغر؟ ربما يمكنك أن تبدأ بكتابة جزء صغير من التقرير كل يوم؟",
+      "origin": "model_output",
+      "call_id": "P01_turn_02"
+    },
+    {
+      "turn_id": 3,
+      "role": "patient",
+      "text": "في أسبوع سابق أنجزت جزءًا صغيرًا كل يوم وانتهيت في الموعد. أظن أنني أتجاهل هذا المثال عندما أشعر بالضغط. أستطيع تخصيص عشرين دقيقة اليوم.",
+      "origin": "frozen_scripted_input"
+    },
+    {
+      "turn_id": 3,
+      "role": "therapist",
+      "text": "هذا جيد! حاول أن تخصص عشرين دقيقة يوميًا لكتابة التقرير. بعد ذلك، يمكنك أن تأخذ استراحة قصيرة. هل يمكنك أن نجرب هذا الإستراتيجية هذا الأسبوع؟",
+      "origin": "model_output",
+      "call_id": "P01_turn_03"
+    },
+    {
+      "turn_id": 4,
+      "role": "patient",
+      "text": "أريد أن أنهي حديثنا بخطوة محددة أستطيع تنفيذها اليوم ومراجعتها غدًا، بدل أن أطالب نفسي بإنجاز كل شيء مرة واحدة.",
+      "origin": "frozen_scripted_input"
+    },
+    {
+      "turn_id": 4,
+      "role": "therapist",
+      "text": "حسنًا، دعنا نحدد خطوة اليوم. هل يمكنك أن تخصص عشرين دقيقة اليوم لكتابة جزء صغير من التقرير؟ سنراجع ما تم تحقيقه غدًا.",
+      "origin": "model_output",
+      "call_id": "P01_turn_04"
+    }
+  ],
+  "status": "complete_not_evaluated",
+  "finished_at_utc": "2026-11-06T13:23:27.003844+00:00",
+  "content_sha256": "4f338f3d8002024e77fdfd432bf7695bb0c1013909cdb0e77f3e174a63ffd148"
+}

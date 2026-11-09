@@ -1,0 +1,66 @@
+{
+  "blinding": {
+    "base_case_hidden": true,
+    "condition_hidden": true,
+    "generator_identity_hidden": true,
+    "other_judge_scores_hidden": true
+  },
+  "device": "cuda:0",
+  "evaluation_order": [
+    "B001",
+    "B002",
+    "B003",
+    "B004",
+    "B005",
+    "B006",
+    "B007",
+    "B008",
+    "B009",
+    "B010",
+    "B011",
+    "B012",
+    "B013",
+    "B014",
+    "B015",
+    "B016",
+    "B017",
+    "B018",
+    "B019",
+    "B020"
+  ],
+  "execution_id": "ARCBT_PHI_JUDGE_V1",
+  "generation": {
+    "do_sample": false,
+    "max_new_tokens": 900,
+    "num_beams": 1,
+    "repetition_penalty": 1.0,
+    "use_cache": true
+  },
+  "human_validation": false,
+  "judge": {
+    "model_id": "microsoft/Phi-4-mini-instruct",
+    "revision": "cfbefacb99257ffa30c83adab238a50856ac3083"
+  },
+  "judging_protocol_sha256": "e77854095fcc727e73468b92ff63e549e2d38d22194e01ec9bef5167d6f463dc",
+  "parsing": {
+    "allowed_transport_normalization": "strip_one_outer_markdown_json_fence_only",
+    "automatic_json_repair": false,
+    "expected_format": "strict_json",
+    "invalid_output_status": "parse_failure",
+    "manual_repair": false
+  },
+  "retry_policy": {
+    "automatic_retry": false,
+    "selective_rerun_for_scores": false,
+    "technical_retry_allowed": true,
+    "technical_retry_rule": "Only after a documented infrastructure/runtime failure before a usable model output is obtained; same prompt, same model revision, same generation parameters."
+  },
+  "score_policy": {
+    "overall_score_computed_later": "arithmetic mean of the six component scores",
+    "overall_score_not_requested_from_judge": true,
+    "six_integer_scores_0_to_7": true
+  },
+  "study_id": "ARCBT_NEW_PILOT_01",
+  "study_stage": "technical_pilot",
+  "transport_normalization_sha256": "2e0ab997512c30720a06e5057ced987e6bb167f39b9d1f08d24e5e989bfabda7"
+}

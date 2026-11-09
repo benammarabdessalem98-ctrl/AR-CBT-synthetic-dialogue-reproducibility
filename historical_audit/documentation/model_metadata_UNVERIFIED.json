@@ -1,0 +1,63 @@
+{
+  "status": "No evaluator identity is inferred from patient/therapist configuration metadata.",
+  "score_columns": {
+    "Rater1": {
+      "provider": null,
+      "model_id": null,
+      "snapshot": null,
+      "prompt_hash": null,
+      "run_id": null,
+      "date": null,
+      "temperature": null,
+      "top_p": null,
+      "token_limit": null,
+      "runs_per_session": null
+    },
+    "Rater2": {
+      "provider": null,
+      "model_id": null,
+      "snapshot": null,
+      "prompt_hash": null,
+      "run_id": null,
+      "date": null,
+      "temperature": null,
+      "top_p": null,
+      "token_limit": null,
+      "runs_per_session": null
+    },
+    "ModelScore": {
+      "provider": null,
+      "model_id": null,
+      "snapshot": null,
+      "prompt_hash": null,
+      "run_id": null,
+      "date": null,
+      "temperature": null,
+      "top_p": null,
+      "token_limit": null,
+      "runs_per_session": null
+    }
+  },
+  "reported_patient_therapist_configs": [
+    {
+      "config": "A",
+      "patient": "gpt-4o-mini",
+      "therapist": "gpt-4o"
+    },
+    {
+      "config": "B",
+      "patient": "microsoft/Phi-3-mini-4k-instruct",
+      "therapist": "Qwen/Qwen2.5-7B-Instruct"
+    },
+    {
+      "config": "C",
+      "patient": "gpt-4o-mini",
+      "therapist": "Jais-13b-chat"
+    }
+  ],
+  "generation_settings_copied_from_earlier_manuscript_not_verified_execution": {
+    "temperature": 0.7,
+    "top_p": 0.9,
+    "max_tokens": 512
+  }
+}

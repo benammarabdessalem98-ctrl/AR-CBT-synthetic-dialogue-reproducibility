@@ -1,0 +1,11 @@
+component,evidence,scope
+Author clarification,LLM scoring of dialogues; no human raters.,Author report; no human validation claimed.
+80-record file and legacy summary,Supplied and numerically reproducible.,Column identities/execution provenance unresolved.
+Main/second evaluator identity,Not supplied.,No shared-family or independence conclusion.
+Exact historical prompts and settings,Not supplied.,Skeletons do not establish executed prompts.
+Full scenario/transcript archive,Not supplied.,No authenticated thematic/dialect/turn inventory.
+150-pair configuration data,Not supplied.,"No matched comparison, Wilcoxon or family sensitivity analysis."
+50-item safety record and Guardian,Not supplied.,Quantitative safety results withdrawn.
+Human clinical/linguistic review,Author confirms LLMs performed relevant work.,No independent human validation.
+"Turn scores, heatmaps and qualitative coding",Source arrays and coding records not supplied.,Earlier temporal/qualitative results withdrawn.
+Public resource,Local package prepared; no publication action performed.,"No public URL, DOI or complete generation replication claimed."

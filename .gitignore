@@ -1,38 +1,26 @@
-# Secrets and credentials
+# Exclude secrets and private administration; this is NOT a content scanner.
 .env
 .env.*
-*.key
 *.pem
-*token*
-*secret*
-*credential*
-*password*
-*cookie*
-
-# Journal/editorial/private administrative files
-*Cover_Letter*
-*CoverLetter*
-*Title_Page*
-*Response_to_Reviewers*
-*Reviewer*
-*Editorial_Manager*
-*Decision_Letter*
-*Editor_Letter*
-*Correspondence*
-
-# Explicitly private research files
-*PRIVATE*
-*private*
+*.key
+kaggle.json
+credentials.json
+secrets.json
+hf_token*
+github_token*
 private/
 confidential/
-
-# Screenshots and local/private exports
+*Cover_Letter*
+*Title_Page*
+*Response_to_Reviewers*
+*Editorial_Manager*
+*Decision_Letter*
+*PRIVATE_BLINDING_KEY*
+*Reviewer_Report*
 screenshots/
-private_screenshots/
-*.log
 .ipynb_checkpoints/
-
-# OS/editor files
+__pycache__/
+*.pyc
 .DS_Store
 Thumbs.db
 ~$*

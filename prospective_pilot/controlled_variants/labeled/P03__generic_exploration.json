@@ -1,0 +1,65 @@
+{
+  "base_case_id": "P03",
+  "blind_id": "B015",
+  "changed_therapist_turns": [
+    2
+  ],
+  "condition": "generic_exploration",
+  "content_sha256": "adbfc406e33eab73655b57c021db4cd66d87295069b2fb75b3ad05a5c8ba9dc7",
+  "derivation": "reconstructed from archived reference and explicit replacement strings; checked against both judge requests",
+  "messages": [
+    {
+      "origin": "frozen_scripted_input",
+      "role": "patient",
+      "text": "أنا شخص بالغ وأكتب تقريرًا للعمل. أراجعه مرات كثيرة لأنني أعتقد أن أي خطأ صغير يعني أنني غير كفء، وهذا يؤخر تسليمه.",
+      "turn_id": 1
+    },
+    {
+      "call_id": "P03_turn_01",
+      "origin": "model_output",
+      "role": "therapist",
+      "text": "أفهم أنك تشعر بالقلق بشأن الأخطاء الصغيرة في تقريرك. هل يمكنك أن تصف كيف تؤثر هذه القلق على طريقة عملك؟ هل يمكننا معاً التعرف على الأفكار التي تجعلك تشعر بالقلق بشأن الأخطاء؟",
+      "turn_id": 1
+    },
+    {
+      "origin": "frozen_scripted_input",
+      "role": "patient",
+      "text": "أمس عدت إلى الفقرة نفسها ست مرات. شعرت بالقلق والخجل من احتمال وجود خطأ، مع أن زميلي لم يطلب تقريرًا كاملًا بلا أي تعديل.",
+      "turn_id": 2
+    },
+    {
+      "origin": "controlled_experimental_edit",
+      "original_call_id": "P03_turn_02",
+      "role": "therapist",
+      "text": "أفهم أن هذا الموقف مزعج بالنسبة لك. من الجيد أنك تتحدث عنه، ويمكننا أن نواصل الحديث عن أفكارك ومشاعرك بصورة عامة.",
+      "turn_id": 2
+    },
+    {
+      "origin": "frozen_scripted_input",
+      "role": "patient",
+      "text": "سبق أن تلقيت ملاحظة على تقرير ثم صححته، ولم تتغير معاملة الفريق لي. أرى فرقًا بين وجود خطأ وبين أن تكون كل قدراتي سيئة.",
+      "turn_id": 3
+    },
+    {
+      "call_id": "P03_turn_03",
+      "origin": "model_output",
+      "role": "therapist",
+      "text": "أتفهم قلقك وشعورك بالخجل. هل يمكننا التركيز على نقاط القوة في عملك؟ ربما يمكننا وضع خطة لتقسيم العمل إلى أجزاء أصغر لتسهيل التعامل معه. هل ترغب في محاولة هذا؟",
+      "turn_id": 3
+    },
+    {
+      "origin": "frozen_scripted_input",
+      "role": "patient",
+      "text": "أود تجربة حد واضح لعدد المراجعات، لكنني أحتاج إلى خطوة صغيرة وطريقة لتسجيل ما يحدث بدل الاكتفاء بطمأنة نفسي.",
+      "turn_id": 4
+    },
+    {
+      "call_id": "P03_turn_04",
+      "origin": "model_output",
+      "role": "therapist",
+      "text": "فكرة جيدة. دعنا نحدد عدد مراجعات محدد قبل البدء في العمل. وعند الانتهاء، سجل ما تشعر به ولاحظ أي تغييرات. هل ترغب في تحديد هذا العدد معًا اليوم؟",
+      "turn_id": 4
+    }
+  ],
+  "transcript_id": "P03__generic_exploration"
+}

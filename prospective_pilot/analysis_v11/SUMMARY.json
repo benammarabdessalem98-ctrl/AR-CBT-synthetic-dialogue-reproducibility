@@ -1,0 +1,27 @@
+{
+  "analysis_id": "ARCBT_V11_DESCRIPTIVE_AUDIT",
+  "base_cases": 5,
+  "controls_reconstructed_and_verified": 20,
+  "human_ratings": 0,
+  "inference": "descriptive only; 20 variants are clustered within 5 base cases",
+  "n_common": 14,
+  "new_model_calls": 0,
+  "original_targeted_statistics_reproduced": true,
+  "overall_agreement": {
+    "dimension": "overall",
+    "exact_agreement": 0.07142857142857142,
+    "mean_absolute_difference": 1.130952380952381,
+    "mean_phi_minus_mistral": 0.2023809523809524,
+    "median_absolute_difference": 1.3333333333333335,
+    "n_common": 14,
+    "pearson": 0.05316392037807893,
+    "spearman": 0.07775636190289885,
+    "within_one_point": 0.42857142857142855
+  },
+  "primary_valid": {
+    "mistral": 14,
+    "phi": 20
+  },
+  "secondary_analyses": "Post-unblinding parsing-policy, aggregation, edit-scope, absolute-agreement and leave-one-base-case-out checks. Not preregistered.",
+  "variants": 20
+}

@@ -1,0 +1,6 @@
+base_case_removed,sensitivity,n_common,pearson,spearman,mean_phi_minus_mistral,mean_absolute_difference,median_absolute_difference,exact_agreement,within_one_point
+P01,post_unblinding_leave_one_base_case_out,12,0.07648561703,0.07328416801,0.2777777778,1.111111111,1.333333333,0.08333333333,0.4166666667
+P02,post_unblinding_leave_one_base_case_out,10,-0.01626302793,-0.0252467703,0.2833333333,1.05,1.25,0.1,0.5
+P03,post_unblinding_leave_one_base_case_out,11,0.07736846392,0.1454095411,0.4090909091,1.257575758,1.5,0.09090909091,0.3636363636
+P04,post_unblinding_leave_one_base_case_out,12,0.06190155491,0.1352083711,0.1111111111,1.111111111,1.333333333,0.08333333333,0.4166666667
+P05,post_unblinding_leave_one_base_case_out,11,0.04938271605,0.1175063331,-0.06060606061,1.121212121,1.166666667,0,0.4545454545

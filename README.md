@@ -1,178 +1,66 @@
-# AR-CBT Reproducibility
+# AR-CBT synthetic-dialogue reproducibility — V11 update
 
-This repository accompanies the revised AR-CBT study on synthetic Arabic CBT-style dialogue generation and automated evaluation.
+## Scope and evidence
+This repository distinguishes the **historical arithmetic audit** from a separate **five-case controlled-edit pilot**. It is research material, not a validated clinical scoring instrument, treatment system, or tested Guardian.
 
-## Scope
+The historical 80-record files retain three score columns. Their numeric relationships can be reproduced, but original evaluator identities, transcript links, and former 150-pair/50-prompt archives are missing. Legacy column labels do not mean human annotation.
 
-This public repository contains only synthetic research materials and technical reproducibility artifacts intended for public release.
+The new pilot has five MSA synthetic cases, four scripted patient turns per case, Qwen2.5-7B-Instruct reference responses, and three localized text edits per case. The 20 transcripts were evaluated by Mistral-7B-Instruct-v0.3 and Phi-4-mini-instruct. No human clinical ratings were collected. Exact recorded model revisions and raw request/response traces are retained.
 
-It separates two evidence streams:
+## What V11 changes
+The V11 update leaves the original records and primary scores unchanged. It supplies:
+- executable offline reproduction of primary statistics and post-unblinding diagnostics;
+- 20 standalone reconstructed labelled transcripts and 20 minimal blinded input files, each checked against archived judge requests and original message hashes;
+- explicit edit operators, primary parsing rules and equal-policy parsing checks;
+- tests and a Kaggle notebook;
+- optional scripts for **new-run-only** GPU call replay and dialogue regeneration, with no claim that those new calls were executed for V11.
 
-1. **Historical audit** — reproducible re-analysis of retained numeric score files from the earlier study workflow.
-2. **Prospective discrimination pilot** — a newly conducted, prospectively documented experiment performed during revision to test whether the research rubric can distinguish selected controlled degradations in synthetic CBT-style dialogues.
+The scripts were written after unblinding. They are documented reimplementations, not an authenticated original notebook.
 
-The prospective pilot is a new experiment and must not be interpreted as a reconstruction of historical model runs.
+## Run offline first
+From the repository root:
 
-## Privacy and confidentiality
-
-This repository intentionally excludes:
-
-- personal addresses, phone numbers, private email correspondence, and account identifiers;
-- Editorial Manager exports and journal administration files;
-- cover letters, title pages containing identifying details, and reviewer correspondence;
-- Response to Reviewers documents;
-- API keys, access tokens, credentials, cookies, or secrets;
-- screenshots of private accounts or local environments;
-- private administrative metadata unrelated to scientific reproducibility.
-
-Only materials necessary for public scientific inspection and reproducibility are included.
-
-## Study components
-
-### 1. Historical audit
-
-The historical audit reproduces numerical relationships present in retained score files. It does **not** reconstruct missing historical model executions, prompts, transcript-to-score mappings, or evaluator identities when those records are unavailable.
-
-Recommended public contents:
-
-```text
-historical_audit/
-├── README.md
-├── data/
-├── code/
-└── results/
+```bash
+python -m pip install -r requirements.txt
+python prospective_pilot/code/reproduce_pilot.py
+python -m unittest discover -s prospective_pilot/tests -v
+python historical_audit/code/reanalyse_scores.py --out historical_audit/recomputed_v11
 ```
 
-### 2. Prospective discrimination pilot
+No GPU, model download, credentials, or API call is needed for these numerical checks. Newly computed pilot outputs are written to `prospective_pilot/analysis_v11/`, not over the preserved `analysis/` or raw model records. A conflicting existing output stops execution rather than silently overwriting it.
 
-The prospective pilot contains five synthetic Arabic base cases, each represented by one reference dialogue and three controlled variants:
+## Main results and their limits
+Under the original primary policies, Mistral has 14 accepted ratings and six failures; Phi has 20 accepted ratings **after removal of outer Markdown fences**. These are format/schema outcomes, not accuracy against clinicians. In a secondary equal-policy check, raw strict parsing accepts 14 Mistral outputs and zero Phi outputs; outer-fence-only normalization applied equally accepts 14 and 20. No internal JSON value is converted or repaired.
 
-- `reference`
-- `generic_exploration`
-- `supportive_non_cbt`
-- `no_homework`
+With Phi, replacing therapist responses 2–3 with generic support yields mean control-minus-reference differences of −1.8 in Guided Discovery and −1.4 in Strategy for Change (four decreases in five paired cases each). The reference is not an expert-confirmed good session. The `no_homework` identifier means **replacement of the final response only**; earlier planning content remains. It must not be interpreted as total removal of homework from the conversation. See `docs/INTERVENTION_SCOPE.md`.
 
-The resulting 20 blinded transcripts were evaluated by two automated judges using the same frozen six-dimensional research rubric.
+On 14 jointly accepted outputs, overall Pearson correlation is 0.053, Spearman correlation 0.078, mean Phi-minus-Mistral difference +0.202 and mean absolute difference 1.131 points. Safety has the highest score association but only 6/14 exact matches. These low-risk score comparisons do not validate crisis detection or safety.
 
-The pilot used:
+All primary pairs, missing-pair counts, six dimensions, secondary aggregation variants and base-case influence checks are published. Twenty variants are nested in only five base cases. No population-level p-value or clinical effectiveness claim is made.
 
-- **Generator:** `Qwen/Qwen2.5-7B-Instruct`
-- **Judge 1:** `mistralai/Mistral-7B-Instruct-v0.3`
-- **Judge 2:** `microsoft/Phi-4-mini-instruct`
-
-Exact model revisions, prompts, execution settings, and parsing outcomes should be preserved in the public protocol files.
-
-## Research rubric
-
-The prospective pilot uses six dimensions:
-
-1. Agenda and structure
-2. Empathy and collaboration
-3. Guided discovery
-4. Strategy for change
-5. Homework planning
-6. Safety
-
-Scores are integer values from 0 to 7.
-
-This rubric is a **research scoring schema** inspired by CBT process concepts. It is not a validated clinical instrument and is not equivalent to the clinical CTRS or CTS-R.
-
-## Prospective pilot: key descriptive findings
-
-The strongest targeted discrimination signal was observed for the `supportive_non_cbt` control under Phi-4-mini:
-
-- Guided Discovery decreased by a mean of **1.8 points** relative to the corresponding reference dialogues.
-- Strategy for Change decreased by a mean of **1.4 points**.
-- Lower scores occurred in **4 of 5 paired cases** for each of these dimensions.
-
-The other targeted manipulations were detected less consistently:
-
-- `generic_exploration` showed a mean reduction of approximately **1.0 point** in Guided Discovery but not in all paired cases.
-- `no_homework` did not consistently reduce Homework Planning scores across the five cases.
-
-These findings provide preliminary, dimension-specific evidence of discrimination in a small technical pilot. They do not establish psychometric or clinical validity.
-
-## Automated judge agreement
-
-Mistral produced 14 valid JSON evaluations and 6 parsing failures. Phi produced 20 valid JSON evaluations.
-
-Among the 14 transcripts with valid outputs from both judges:
-
-- Overall-score Pearson correlation: approximately **0.053**
-- Overall-score Spearman correlation: approximately **0.078**
-- Mean absolute difference in overall score: approximately **1.13 points**
-- Safety showed the strongest cross-judge association:
-  - Pearson ≈ **0.619**
-  - Spearman ≈ **0.636**
-
-These results indicate substantial judge dependence. Automated rubric scores should not be treated as evaluator-independent measurements.
-
-## Important limitations
-
-- Only five base cases were used in the prospective pilot.
-- No human clinical validation was conducted in this pilot.
-- The controlled variants may affect more than one rubric dimension.
-- Mistral produced six parsing failures.
-- The automated judges showed limited agreement outside the Safety dimension.
-- The pilot is not evidence of therapeutic effectiveness, clinical competence, or deployment safety.
-- Historical provenance remains incomplete for some earlier study artifacts.
-
-## Reproducibility principles
-
-Public files should preserve the chain:
+## Structure
 
 ```text
-scenario
-→ transcript
-→ exact model request
-→ raw model response
-→ parsed score
-→ analysis output
+historical_audit/          retained numeric audit; incomplete historical provenance
+prospective_pilot/
+  protocol/               original frozen prompts/rubric/execution records
+  synthetic_dialogues/    raw generator transcripts and calls
+  controlled_variants/    V11 reconstructions and minimal judge-facing texts
+  automated_judging/     raw Mistral/Phi calls; failures preserved
+  analysis/               retained V1 outputs and public blinding map
+  analysis_v11/           executed post-unblinding checks
+  code/                   offline reproduction and new-run-only GPU scripts
+  tests/                  implementation checks, not scientific validation
+  notebooks/              Kaggle/standard Jupyter offline workflow
+  technical_metadata/     recorded model/environment information
+  docs/                   edit-scope and code-provenance documentation
+docs/                     public release, privacy and verification manifests
 ```
 
-Do not replace or silently repair failed model outputs. Parsing failures are part of the study record.
+## GPU scripts
+`replay_models.py --role phi --dry-run` checks the plan without running a model. Actual GPU use requires `--execute --out <NEW_DIRECTORY>` and, when necessary, explicit acknowledgement of recorded environment differences. Archived input IDs are checked against tokenization before calls. Therapist replay conditions on the **recorded** preceding histories; `generate_new_dialogues.py` instead generates new evolving histories from the frozen scripts. Never substitute either new output for the original study data. GPU paths were not executed in the V11 offline audit.
 
-## Suggested repository structure
+## Privacy and release status
+Only synthetic research data, code and non-identifying technical records are intended for public release. This bundle excludes title pages, author contacts, cover letters, reviewer/editor correspondence, screenshots, account credentials and secrets. `.gitignore` is not a privacy guarantee; inspect contents before committing. Checksums detect changes to included bytes; they are not proof of scientific validity or historical authenticity.
 
-```text
-AR-CBT-reproducibility/
-├── README.md
-├── LICENSE
-├── CITATION.cff
-├── requirements.txt
-├── .gitignore
-│
-├── historical_audit/
-│   ├── README.md
-│   ├── data/
-│   ├── code/
-│   └── results/
-│
-├── prospective_pilot/
-│   ├── README.md
-│   ├── protocol/
-│   ├── synthetic_dialogues/
-│   ├── controlled_variants/
-│   ├── automated_judging/
-│   └── analysis/
-│
-└── docs/
-    ├── DATA_DICTIONARY.md
-    ├── REPRODUCIBILITY.md
-    ├── LIMITATIONS.md
-    └── PUBLIC_RELEASE_MANIFEST.md
-```
-
-## Public release policy
-
-Before any file is committed, verify it against `docs/PUBLIC_RELEASE_MANIFEST.md`.
-
-If a file contains personal information, journal correspondence, reviewer material, credentials, secrets, account metadata, or unrelated private content, do not commit it.
-
-## Citation
-
-Please cite the corresponding AR-CBT manuscript when using this repository. A `CITATION.cff` file can be added once the final bibliographic metadata are confirmed.
-
-## License
-
-Add the license selected by the authors before public release.
+The V11 bundle is prepared locally; no automatic upload, GitHub release tag or DOI is asserted. Authors must publish/check the update before claiming it is accessible in the submitted paper. Bibliographic and licensing choices remain for the authors; no new license or author identity has been invented here.

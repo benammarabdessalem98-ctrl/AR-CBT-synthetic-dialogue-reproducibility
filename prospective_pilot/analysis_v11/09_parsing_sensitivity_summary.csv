@@ -1,0 +1,5 @@
+judge,policy,n,valid
+mistral,common_outer_fence_only,20,14
+mistral,common_strict,20,14
+phi,common_outer_fence_only,20,20
+phi,common_strict,20,0

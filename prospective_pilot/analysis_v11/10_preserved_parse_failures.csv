@@ -1,0 +1,7 @@
+judge,blind_id,base_case_id,condition,output_tokens,at_token_limit,last_token_is_eos,recorded_error_type,recorded_error
+mistral,B001,P04,reference,900,True,False,JSONDecodeError,Unterminated string starting at: line 10 column 24 (char 1529)
+mistral,B003,P01,no_homework,438,False,True,ValueError,agenda_structure: score non entier.
+mistral,B004,P03,supportive_non_cbt,486,False,True,ValueError,agenda_structure: score non entier.
+mistral,B007,P05,reference,413,False,True,ValueError,agenda_structure: score non entier.
+mistral,B010,P04,no_homework,900,True,False,JSONDecodeError,Unterminated string starting at: line 12 column 22 (char 1906)
+mistral,B019,P01,supportive_non_cbt,439,False,True,ValueError,agenda_structure: score non entier.

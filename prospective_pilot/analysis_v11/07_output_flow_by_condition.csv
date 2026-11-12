@@ -1,0 +1,9 @@
+judge,condition,submitted,valid,parse_failure
+mistral,reference,5,3,2
+mistral,generic_exploration,5,5,0
+mistral,supportive_non_cbt,5,3,2
+mistral,no_homework,5,3,2
+phi,reference,5,5,0
+phi,generic_exploration,5,5,0
+phi,supportive_non_cbt,5,5,0
+phi,no_homework,5,5,0

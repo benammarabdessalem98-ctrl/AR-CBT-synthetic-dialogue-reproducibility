@@ -1,5 +1,18 @@
 {
-  "scan_status": "PASS",
-  "findings": [],
-  "files_scanned": 186
+  "scan_version": "V11",
+  "patterns_checked": [
+    "email",
+    "github_token",
+    "hf_token",
+    "private_key",
+    "bearer_value",
+    "private_user_path"
+  ],
+  "potential_matches": [],
+  "scope": "Text content and public filenames; no absolute guarantee against all personal information.",
+  "editorial_documents_included": false,
+  "human_ratings_included": false,
+  "model_weights_included": false,
+  "raw_source_files_preserved": 155,
+  "publication_performed": false
 }

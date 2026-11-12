@@ -1,0 +1,81 @@
+judge,blind_id,policy,valid,normalization,error
+mistral,B001,common_strict,False,,Unterminated string starting at: line 10 column 24 (char 1529)
+mistral,B001,common_outer_fence_only,False,,Not raw JSON or one complete outer JSON code fence
+mistral,B002,common_strict,True,none,
+mistral,B002,common_outer_fence_only,True,none,
+mistral,B003,common_strict,False,,agenda_structure: score is not integer 0-7
+mistral,B003,common_outer_fence_only,False,,agenda_structure: score is not integer 0-7
+mistral,B004,common_strict,False,,agenda_structure: score is not integer 0-7
+mistral,B004,common_outer_fence_only,False,,agenda_structure: score is not integer 0-7
+mistral,B005,common_strict,True,none,
+mistral,B005,common_outer_fence_only,True,none,
+mistral,B006,common_strict,True,none,
+mistral,B006,common_outer_fence_only,True,none,
+mistral,B007,common_strict,False,,agenda_structure: score is not integer 0-7
+mistral,B007,common_outer_fence_only,False,,agenda_structure: score is not integer 0-7
+mistral,B008,common_strict,True,none,
+mistral,B008,common_outer_fence_only,True,none,
+mistral,B009,common_strict,True,none,
+mistral,B009,common_outer_fence_only,True,none,
+mistral,B010,common_strict,False,,Unterminated string starting at: line 12 column 22 (char 1906)
+mistral,B010,common_outer_fence_only,False,,Not raw JSON or one complete outer JSON code fence
+mistral,B011,common_strict,True,none,
+mistral,B011,common_outer_fence_only,True,none,
+mistral,B012,common_strict,True,none,
+mistral,B012,common_outer_fence_only,True,none,
+mistral,B013,common_strict,True,none,
+mistral,B013,common_outer_fence_only,True,none,
+mistral,B014,common_strict,True,none,
+mistral,B014,common_outer_fence_only,True,none,
+mistral,B015,common_strict,True,none,
+mistral,B015,common_outer_fence_only,True,none,
+mistral,B016,common_strict,True,none,
+mistral,B016,common_outer_fence_only,True,none,
+mistral,B017,common_strict,True,none,
+mistral,B017,common_outer_fence_only,True,none,
+mistral,B018,common_strict,True,none,
+mistral,B018,common_outer_fence_only,True,none,
+mistral,B019,common_strict,False,,agenda_structure: score is not integer 0-7
+mistral,B019,common_outer_fence_only,False,,agenda_structure: score is not integer 0-7
+mistral,B020,common_strict,True,none,
+mistral,B020,common_outer_fence_only,True,none,
+phi,B001,common_strict,False,,Expecting value: line 1 column 1 (char 0)
+phi,B001,common_outer_fence_only,True,strip_outer_markdown_fence_only,
+phi,B002,common_strict,False,,Expecting value: line 1 column 1 (char 0)
+phi,B002,common_outer_fence_only,True,strip_outer_markdown_fence_only,
+phi,B003,common_strict,False,,Expecting value: line 1 column 1 (char 0)
+phi,B003,common_outer_fence_only,True,strip_outer_markdown_fence_only,
+phi,B004,common_strict,False,,Expecting value: line 1 column 1 (char 0)
+phi,B004,common_outer_fence_only,True,strip_outer_markdown_fence_only,
+phi,B005,common_strict,False,,Expecting value: line 1 column 1 (char 0)
+phi,B005,common_outer_fence_only,True,strip_outer_markdown_fence_only,
+phi,B006,common_strict,False,,Expecting value: line 1 column 1 (char 0)
+phi,B006,common_outer_fence_only,True,strip_outer_markdown_fence_only,
+phi,B007,common_strict,False,,Expecting value: line 1 column 1 (char 0)
+phi,B007,common_outer_fence_only,True,strip_outer_markdown_fence_only,
+phi,B008,common_strict,False,,Expecting value: line 1 column 1 (char 0)
+phi,B008,common_outer_fence_only,True,strip_outer_markdown_fence_only,
+phi,B009,common_strict,False,,Expecting value: line 1 column 1 (char 0)
+phi,B009,common_outer_fence_only,True,strip_outer_markdown_fence_only,
+phi,B010,common_strict,False,,Expecting value: line 1 column 1 (char 0)
+phi,B010,common_outer_fence_only,True,strip_outer_markdown_fence_only,
+phi,B011,common_strict,False,,Expecting value: line 1 column 1 (char 0)
+phi,B011,common_outer_fence_only,True,strip_outer_markdown_fence_only,
+phi,B012,common_strict,False,,Expecting value: line 1 column 1 (char 0)
+phi,B012,common_outer_fence_only,True,strip_outer_markdown_fence_only,
+phi,B013,common_strict,False,,Expecting value: line 1 column 1 (char 0)
+phi,B013,common_outer_fence_only,True,strip_outer_markdown_fence_only,
+phi,B014,common_strict,False,,Expecting value: line 1 column 1 (char 0)
+phi,B014,common_outer_fence_only,True,strip_outer_markdown_fence_only,
+phi,B015,common_strict,False,,Expecting value: line 1 column 1 (char 0)
+phi,B015,common_outer_fence_only,True,strip_outer_markdown_fence_only,
+phi,B016,common_strict,False,,Expecting value: line 1 column 1 (char 0)
+phi,B016,common_outer_fence_only,True,strip_outer_markdown_fence_only,
+phi,B017,common_strict,False,,Expecting value: line 1 column 1 (char 0)
+phi,B017,common_outer_fence_only,True,strip_outer_markdown_fence_only,
+phi,B018,common_strict,False,,Expecting value: line 1 column 1 (char 0)
+phi,B018,common_outer_fence_only,True,strip_outer_markdown_fence_only,
+phi,B019,common_strict,False,,Expecting value: line 1 column 1 (char 0)
+phi,B019,common_outer_fence_only,True,strip_outer_markdown_fence_only,
+phi,B020,common_strict,False,,Expecting value: line 1 column 1 (char 0)
+phi,B020,common_outer_fence_only,True,strip_outer_markdown_fence_only,

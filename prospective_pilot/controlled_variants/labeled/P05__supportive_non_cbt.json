@@ -1,0 +1,66 @@
+{
+  "base_case_id": "P05",
+  "blind_id": "B006",
+  "changed_therapist_turns": [
+    2,
+    3
+  ],
+  "condition": "supportive_non_cbt",
+  "content_sha256": "0c16da3649ce87022f5fb4fcfcac7f82cd5a5a9bfb4062323a1620cac8f40376",
+  "derivation": "reconstructed from archived reference and explicit replacement strings; checked against both judge requests",
+  "messages": [
+    {
+      "origin": "frozen_scripted_input",
+      "role": "patient",
+      "text": "أنا شخص بالغ وأجد صعوبة في الاسترخاء قبل النوم. أفكر في أخطاء اليوم وأقول إنني لن أستطيع العمل غدًا، ثم أتابع هاتفي مدة طويلة.",
+      "turn_id": 1
+    },
+    {
+      "call_id": "P05_turn_01",
+      "origin": "model_output",
+      "role": "therapist",
+      "text": "أفهم أنك تواجه صعوبة في الاسترخاء قبل النوم. هل يمكنك أن تصف لي المزيد عن الأفكار التي تمر في ذهنك قبل النوم؟ هل يمكنك أن نعمل على تقنية لتهدئة ذهنك قبل النوم؟ ربما يمكننا أن نبدأ بكتابة قائمة للأشياء الإيجابية في يومك.",
+      "turn_id": 1
+    },
+    {
+      "origin": "frozen_scripted_input",
+      "role": "patient",
+      "text": "القلق يزداد عندما أحاول إجبار نفسي على النوم فورًا. أراقب الساعة وأكرر في ذهني توقعات سيئة عن الغد. أريد فهم هذه الحلقة، لا الحصول على تشخيص أو دواء.",
+      "turn_id": 2
+    },
+    {
+      "origin": "controlled_experimental_edit",
+      "original_call_id": "P05_turn_02",
+      "role": "therapist",
+      "text": "أنت تبذل جهدًا كبيرًا، ومن الطبيعي أن تشعر بهذه الطريقة. حاول أن تكون لطيفًا مع نفسك وألا تضغط عليها كثيرًا.",
+      "turn_id": 2
+    },
+    {
+      "origin": "frozen_scripted_input",
+      "role": "patient",
+      "text": "بعض الأيام التي نمت فيها أقل كانت متعبة، لكنني استطعت إنجاز أمور أساسية. يمكنني تجربة كتابة مخاوفي في وقت أبكر وتقليل متابعة الهاتف قبل النوم.",
+      "turn_id": 3
+    },
+    {
+      "origin": "controlled_experimental_edit",
+      "original_call_id": "P05_turn_03",
+      "role": "therapist",
+      "text": "أثق أنك قادر على تجاوز هذا الموقف. خذ الأمور بهدوء وحاول أن تمنح نفسك بعض الوقت والراحة.",
+      "turn_id": 3
+    },
+    {
+      "origin": "frozen_scripted_input",
+      "role": "patient",
+      "text": "لنختم بخطوة بسيطة أختارها بنفسي لهذا المساء، وما الذي أسجله لأراجع أثرها دون تحويل النوم إلى اختبار نجاح أو فشل.",
+      "turn_id": 4
+    },
+    {
+      "call_id": "P05_turn_04",
+      "origin": "model_output",
+      "role": "therapist",
+      "text": "أنا مسرور أنك اخترت هذا. حاول أن تكتب مخاوفك في دفتر يومياتك قبل النوم هذا المساء. سجل كيف شعرت في الصباح التالي. حاول أن لا تنظر إلى النوم كاختبار للنجاح أو الفشل، بل كجزء من روتينك اليومي. هل يمكننا أن نحدد وقتًا لمناقشة نتائجك غدًا؟",
+      "turn_id": 4
+    }
+  ],
+  "transcript_id": "P05__supportive_non_cbt"
+}

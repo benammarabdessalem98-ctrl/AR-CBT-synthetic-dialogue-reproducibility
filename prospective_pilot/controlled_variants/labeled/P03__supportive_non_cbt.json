@@ -1,0 +1,66 @@
+{
+  "base_case_id": "P03",
+  "blind_id": "B004",
+  "changed_therapist_turns": [
+    2,
+    3
+  ],
+  "condition": "supportive_non_cbt",
+  "content_sha256": "04e36693b6521104ec6156db0d8b1c0f922929bc86a517d3994a0e8684961092",
+  "derivation": "reconstructed from archived reference and explicit replacement strings; checked against both judge requests",
+  "messages": [
+    {
+      "origin": "frozen_scripted_input",
+      "role": "patient",
+      "text": "أنا شخص بالغ وأكتب تقريرًا للعمل. أراجعه مرات كثيرة لأنني أعتقد أن أي خطأ صغير يعني أنني غير كفء، وهذا يؤخر تسليمه.",
+      "turn_id": 1
+    },
+    {
+      "call_id": "P03_turn_01",
+      "origin": "model_output",
+      "role": "therapist",
+      "text": "أفهم أنك تشعر بالقلق بشأن الأخطاء الصغيرة في تقريرك. هل يمكنك أن تصف كيف تؤثر هذه القلق على طريقة عملك؟ هل يمكننا معاً التعرف على الأفكار التي تجعلك تشعر بالقلق بشأن الأخطاء؟",
+      "turn_id": 1
+    },
+    {
+      "origin": "frozen_scripted_input",
+      "role": "patient",
+      "text": "أمس عدت إلى الفقرة نفسها ست مرات. شعرت بالقلق والخجل من احتمال وجود خطأ، مع أن زميلي لم يطلب تقريرًا كاملًا بلا أي تعديل.",
+      "turn_id": 2
+    },
+    {
+      "origin": "controlled_experimental_edit",
+      "original_call_id": "P03_turn_02",
+      "role": "therapist",
+      "text": "أنت تبذل جهدًا كبيرًا، ومن الطبيعي أن تشعر بهذه الطريقة. حاول أن تكون لطيفًا مع نفسك وألا تضغط عليها كثيرًا.",
+      "turn_id": 2
+    },
+    {
+      "origin": "frozen_scripted_input",
+      "role": "patient",
+      "text": "سبق أن تلقيت ملاحظة على تقرير ثم صححته، ولم تتغير معاملة الفريق لي. أرى فرقًا بين وجود خطأ وبين أن تكون كل قدراتي سيئة.",
+      "turn_id": 3
+    },
+    {
+      "origin": "controlled_experimental_edit",
+      "original_call_id": "P03_turn_03",
+      "role": "therapist",
+      "text": "أثق أنك قادر على تجاوز هذا الموقف. خذ الأمور بهدوء وحاول أن تمنح نفسك بعض الوقت والراحة.",
+      "turn_id": 3
+    },
+    {
+      "origin": "frozen_scripted_input",
+      "role": "patient",
+      "text": "أود تجربة حد واضح لعدد المراجعات، لكنني أحتاج إلى خطوة صغيرة وطريقة لتسجيل ما يحدث بدل الاكتفاء بطمأنة نفسي.",
+      "turn_id": 4
+    },
+    {
+      "call_id": "P03_turn_04",
+      "origin": "model_output",
+      "role": "therapist",
+      "text": "فكرة جيدة. دعنا نحدد عدد مراجعات محدد قبل البدء في العمل. وعند الانتهاء، سجل ما تشعر به ولاحظ أي تغييرات. هل ترغب في تحديد هذا العدد معًا اليوم؟",
+      "turn_id": 4
+    }
+  ],
+  "transcript_id": "P03__supportive_non_cbt"
+}

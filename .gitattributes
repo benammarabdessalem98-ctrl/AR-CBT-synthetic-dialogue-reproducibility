@@ -1,0 +1,2 @@
+# Preserve exact archived bytes: manifests depend on SHA-256 of original files.
+* -text

@@ -1,0 +1,63 @@
+{
+  "base_case_id": "P02",
+  "blind_id": "B018",
+  "changed_therapist_turns": [],
+  "condition": "reference",
+  "content_sha256": "9e246b1d64bb0dc67601049ecaafc60ff1432a98ca1a3dfde137832c5b03627b",
+  "derivation": "reconstructed from archived reference and explicit replacement strings; checked against both judge requests",
+  "messages": [
+    {
+      "origin": "frozen_scripted_input",
+      "role": "patient",
+      "text": "أنا طالب بالغ ولدي امتحان بعد أسبوع. عندما أفكر فيه يتسارع نبضي وأقول إنني سأفشل مهما راجعت، فأبتعد عن الدراسة.",
+      "turn_id": 1
+    },
+    {
+      "call_id": "P02_turn_01",
+      "origin": "model_output",
+      "role": "therapist",
+      "text": "أفهم أنك متوتر بشأن الامتحان. هل يمكنك أن تصف كيف تشعر عندما تفكر في الامتحان؟ هل هناك طرق معينة يمكننا أن نجربها لمساعدتك على التعامل مع هذا التوتر؟",
+      "turn_id": 1
+    },
+    {
+      "origin": "frozen_scripted_input",
+      "role": "patient",
+      "text": "يحدث ذلك خصوصًا عندما أرى أسئلة لا أعرف إجابتها فورًا. أتوقف عن حلها وأقارن نفسي بزملائي. لم تظهر نتيجة الامتحان بعد، لكنني أتعامل مع الفشل كأنه مؤكد.",
+      "turn_id": 2
+    },
+    {
+      "call_id": "P02_turn_02",
+      "origin": "model_output",
+      "role": "therapist",
+      "text": "أتفهم شعورك. هل يمكنك أن نركز على التقدم الذي قمت به حتى الآن بدلاً من النتائج المستقبلية؟ ربما يمكننا أن نقوم بتمارين التنفس لمساعدتك على الاسترخاء عندما تشعر بالتوتر.",
+      "turn_id": 2
+    },
+    {
+      "origin": "frozen_scripted_input",
+      "role": "patient",
+      "text": "نجحت في امتحانات سابقة رغم أنني كنت قلقًا، وأستطيع حل بعض الأسئلة إذا بدأت بالأسهل. أرغب في تجربة فترة مراجعة قصيرة دون مقارنة نفسي بأحد.",
+      "turn_id": 3
+    },
+    {
+      "call_id": "P02_turn_03",
+      "origin": "model_output",
+      "role": "therapist",
+      "text": "هذا خطوة جيدة. حاول أن تركز على مراجعة المواد بدلاً من القلق من الأسئلة الصعبة. حدد وقتًا قصيرًا للدراسة اليوم وابدأ بالأسئلة الأسهل. هل يمكنك أن نخطط لدقيقة الدراسة اليوم؟",
+      "turn_id": 3
+    },
+    {
+      "origin": "frozen_scripted_input",
+      "role": "patient",
+      "text": "ما الخطوة العملية الصغيرة التي يمكنني تجربتها قبل حديثنا القادم، وكيف أعرف إن كانت ساعدتني؟",
+      "turn_id": 4
+    },
+    {
+      "call_id": "P02_turn_04",
+      "origin": "model_output",
+      "role": "therapist",
+      "text": "أفضل أن تبدأ بدقيقة من الدراسة اليوم، واختر موضوعًا بسيطًا للبدء. قم بتسجيل الوقت الذي أمضيته في الدراسة ولاحظ أي تقدم في فهمك للمادة. هذا سيساعدك على معرفة ما إذا كانت هذه الطريقة مفيدة لك.",
+      "turn_id": 4
+    }
+  ],
+  "transcript_id": "P02__reference"
+}
